@@ -1,0 +1,33 @@
+body{
+    background-image: url("background.jpg");
+}
+
+h2{
+    font-size: 30px  !important;
+    font-family: cursive;
+    animation-name: heading ;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+
+button{
+    font-size: 20px !important;
+    font-family: cursive;
+}
+
+canvas{
+    animation-name: color;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    margin-top: 100px;
+}
+
+@keyframes color{
+    0%{box-shadow: 1px 1px 30px rgb(255, 57, 238);}
+    100%{box-shadow: 1px 1px 30px rgb(131, 0, 131);}
+}
+
+@keyframes heading{
+0%{color: black;}
+100%{color: rgb(0, 38, 255);}
+}
